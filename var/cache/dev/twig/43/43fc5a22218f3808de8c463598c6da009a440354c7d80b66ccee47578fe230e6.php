@@ -1,0 +1,106 @@
+<?php
+
+/* SyliusAdminBundle:Product:_slugField.html.twig */
+class __TwigTemplate_8c579defc544c2ce10589763e7f6dbc0c1086ca3eda5ea33acdb1276e5469f9d extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        $__internal_7b55d3dd558dc176996fdd38a8fb2cde4a77ba425d836837737d792eb3e7dac3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7b55d3dd558dc176996fdd38a8fb2cde4a77ba425d836837737d792eb3e7dac3->enter($__internal_7b55d3dd558dc176996fdd38a8fb2cde4a77ba425d836837737d792eb3e7dac3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SyliusAdminBundle:Product:_slugField.html.twig"));
+
+        $__internal_dd978e7316eda2dcb3663d978694ea2985714abeba6e0d923aaeb597312324a4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_dd978e7316eda2dcb3663d978694ea2985714abeba6e0d923aaeb597312324a4->enter($__internal_dd978e7316eda2dcb3663d978694ea2985714abeba6e0d923aaeb597312324a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SyliusAdminBundle:Product:_slugField.html.twig"));
+
+        // line 1
+        echo "<div class=\"";
+        if (twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 1, $this->getSourceContext()); })()), "vars", array()), "required", array())) {
+            echo "required ";
+        }
+        echo "field";
+        if ((twig_length_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 1, $this->getSourceContext()); })()), "vars", array()), "errors", array())) > 0)) {
+            echo " error";
+        }
+        echo " ui loadable form\">
+    ";
+        // line 2
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock((isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 2, $this->getSourceContext()); })()), 'label');
+        echo "
+    ";
+        // line 3
+        if ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 3, $this->getSourceContext()); })()), "vars", array()), "value", array()) == null)) {
+            // line 4
+            echo "        ";
+            echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock((isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 4, $this->getSourceContext()); })()), 'widget', array("attr" => array("data-url" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("sylius_admin_ajax_generate_product_slug"))));
+            echo "
+    ";
+        } else {
+            // line 6
+            echo "    <div class=\"ui action input\">
+        ";
+            // line 7
+            echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock((isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 7, $this->getSourceContext()); })()), 'widget', array("attr" => array("readonly" => "readonly", "data-url" => $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("sylius_admin_ajax_generate_product_slug"))));
+            echo "
+        <span class=\"ui icon button toggle-product-slug-modification\">
+            <i class=\"lock icon\"></i>
+        </span>
+    </div>
+    ";
+        }
+        // line 13
+        echo "    ";
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock((isset($context["slugField"]) || array_key_exists("slugField", $context) ? $context["slugField"] : (function () { throw new Twig_Error_Runtime('Variable "slugField" does not exist.', 13, $this->getSourceContext()); })()), 'errors');
+        echo "
+</div>
+";
+        
+        $__internal_7b55d3dd558dc176996fdd38a8fb2cde4a77ba425d836837737d792eb3e7dac3->leave($__internal_7b55d3dd558dc176996fdd38a8fb2cde4a77ba425d836837737d792eb3e7dac3_prof);
+
+        
+        $__internal_dd978e7316eda2dcb3663d978694ea2985714abeba6e0d923aaeb597312324a4->leave($__internal_dd978e7316eda2dcb3663d978694ea2985714abeba6e0d923aaeb597312324a4_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "SyliusAdminBundle:Product:_slugField.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  60 => 13,  51 => 7,  48 => 6,  42 => 4,  40 => 3,  36 => 2,  25 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("<div class=\"{% if slugField.vars.required %}required {% endif %}field{% if slugField.vars.errors|length > 0 %} error{% endif %} ui loadable form\">
+    {{ form_label(slugField) }}
+    {% if slugField.vars.value == null %}
+        {{ form_widget(slugField, {'attr': {'data-url': path('sylius_admin_ajax_generate_product_slug')}}) }}
+    {% else %}
+    <div class=\"ui action input\">
+        {{ form_widget(slugField, {'attr': {'readonly': 'readonly', 'data-url': path('sylius_admin_ajax_generate_product_slug')}}) }}
+        <span class=\"ui icon button toggle-product-slug-modification\">
+            <i class=\"lock icon\"></i>
+        </span>
+    </div>
+    {% endif %}
+    {{ form_errors(slugField) }}
+</div>
+", "SyliusAdminBundle:Product:_slugField.html.twig", "D:\\xamppfr\\htdocs\\symfony_sylius\\vendor\\sylius\\sylius\\src\\Sylius\\Bundle\\AdminBundle/Resources/views/Product/_slugField.html.twig");
+    }
+}

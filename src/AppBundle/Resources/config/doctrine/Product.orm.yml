@@ -1,0 +1,7 @@
+AppBundle\Entity\Product:
+    type: entity
+    table: sylius_product
+    fields:
+         has_discount:
+            type: boolean
+            nullable: true
